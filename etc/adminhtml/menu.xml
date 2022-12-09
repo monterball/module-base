@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--/**-->
+<!-- * Module base of Eloab package-->
+<!-- * @package Eloab_Base-->
+<!-- * @author Bao Le-->
+<!-- * @date 2022-->
+<!-- */-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!-- Uncomment when have any child menu -->
+        <add id="MenuEloab_Base::menu"
+             title="Eloab"
+             module="Eloab_Base"
+             translate="title"
+             sortOrder="10"
+             resource="MenuEloab_Base::menu"/>
+    </menu>
+</config>

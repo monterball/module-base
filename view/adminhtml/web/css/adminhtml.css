@@ -1,0 +1,10 @@
+.customer-index-edit .admin__control-text._has-datepicker,
+.eloab_paymentrecord-paymentrecord-view .admin__control-text._has-datepicker {
+    min-width: 18rem !important;
+}
+
+.admin__menu .level-0#menu-menueloab-base-menu > a::before {
+    background: url("../images/logo-icon.png") no-repeat center center;
+    background-size: contain;
+    content: '';
+}
